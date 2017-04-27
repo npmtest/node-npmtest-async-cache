@@ -1,6 +1,6 @@
 # npmtest-async-cache
 
-#### test coverage for  [async-cache (v1.1.0)](https://github.com/isaacs/async-cache#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-async-cache.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-async-cache) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-async-cache.svg)](https://travis-ci.org/npmtest/node-npmtest-async-cache)
+#### basic test coverage for  [async-cache (v1.1.0)](https://github.com/isaacs/async-cache#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-async-cache.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-async-cache) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-async-cache.svg)](https://travis-ci.org/npmtest/node-npmtest-async-cache)
 
 #### Cache your async lookups and don't fetch the same thing more than necessary.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-async-cache/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-async-cache/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-async-cache/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-async-cache/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-async-cache/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-async-cache/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-async-cache/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-async-cache/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-async-cache/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-async-cache/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-async-cache/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-async-cache/build/coverage.html/index.html)
 
@@ -83,7 +83,8 @@
     "scripts": {
         "test": "standard && tap test/*.js --cov"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
